@@ -5,8 +5,10 @@
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
+    "docs-dev:build": "UMI_ENV=dev dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build && lessc assets/index.less assets/index.css",
+    "build:dist": "father-build && lessc assets/index.less dist/index.css",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "prepublishOnly": "npm run build && np --yolo --no-publish",
