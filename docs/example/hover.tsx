@@ -1,5 +1,5 @@
 /**
- * desc: Basic display.
+ * desc: Use `shadowHover` to turn on the floating effect.
  */
 
 import React from 'react';
@@ -11,15 +11,17 @@ const App = () => {
   return (
     <div className="base-demo">
       <ImageShadow
+        shadowHover
         width="300"
         src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/red.png?raw=true"
       ></ImageShadow>
       <ImageShadow
+        shadowHover
         width="300"
         src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/blue.jpg?raw=true"
       ></ImageShadow>
       <ImageShadow
-        shadowRadius={20}
+        shadowHover
         width="300"
         src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/white.jpg?raw=true"
       ></ImageShadow>
