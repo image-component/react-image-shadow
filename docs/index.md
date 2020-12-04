@@ -12,6 +12,7 @@ Online: https://xrkffgg.github.io/react-image-shadow/
 
 ```js
 import ImageShadow from 'react-image-shadow';
+import 'react-image-shadow/assets/index.css';
 
 export default () => (
   <>
