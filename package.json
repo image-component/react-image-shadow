@@ -1,15 +1,16 @@
 {
-  "private": true,
+  "private": false,
   "name": "react-image-shadow",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
-    "build": "father-build",
+    "build": "father-build && lessc assets/index.less assets/index.css",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "prepublishOnly": "npm run build && np --yolo --no-publish",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
@@ -27,6 +28,28 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xrkffgg/react-image-shadow",
+    "branch": "main"
+  },
+  "author": "xrkffgg",
+  "homepage": "https://xrkffgg.github.io/react-image-shadow/",
+  "keywords": [
+    "image",
+    "shadow",
+    "components",
+    "react",
+    "ui"
+  ],
+  "files": [
+    "assets/*.css",
+    "dist"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xrkffgg/react-image-shadow/issues"
+  },
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.12.0"
@@ -38,6 +61,7 @@
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
+    "np": "^7.0.0",
     "prettier": "^1.19.1",
     "yorkie": "^2.0.0"
   }

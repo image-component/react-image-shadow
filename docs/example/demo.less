@@ -1,7 +1,7 @@
 .base-demo {
   padding: 0 50px;
-  display: flex;
-  div + div {
-    margin-left: 60px;
-  }
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 40px;
 }

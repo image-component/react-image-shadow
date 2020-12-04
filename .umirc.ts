@@ -3,14 +3,19 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'Image Shadow',
   favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    'https://github.com/xrkffgg/react-image-shadow/blob/main/logo.png?raw=true',
   logo:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    'https://github.com/xrkffgg/react-image-shadow/blob/main/logo.png?raw=true',
   outputPath: 'docs-dist',
+  base: '/react-image-shadow/',
+  publicPath: '/react-image-shadow/',
   styles: [
     `a img + svg {
       display: none;
     }`,
   ],
+  theme: {
+    '@c-primary': '#3bacea',
+  },
   hash: true,
 });
