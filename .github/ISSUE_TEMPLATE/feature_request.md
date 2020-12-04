@@ -1,6 +1,6 @@
 ---
 name: 🌟 需求、功能、建议
-about: needs, functions, suggestions.
+about: Needs, functions, suggestions.
 title: '[Feature] New function'
 labels: '🌟 To do'
 assignees:
