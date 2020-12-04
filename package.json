@@ -44,7 +44,8 @@
   ],
   "files": [
     "assets/*.css",
-    "dist"
+    "dist",
+    "docs/README.md"
   ],
   "license": "MIT",
   "bugs": {

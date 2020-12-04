@@ -2,7 +2,7 @@
 
 A React image plugin. Simple realization of image shadow.
 
-[![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi)
+[![npm](https://img.shields.io/npm/v/react-image-shadow?style=flat-square)](https://www.npmjs.com/package/react-image-shadow) [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi) ![](https://img.shields.io/github/last-commit/xrkffgg/react-image-shadow/main?color=%23722ed1&style=flat-square) ![](https://img.shields.io/npm/dm/react-image-shadow?style=flat-square) ![](https://img.shields.io/npm/l/react-image-shadow?style=flat-square)
 
 ## Example
 
