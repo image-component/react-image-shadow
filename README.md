@@ -4,11 +4,19 @@ A React image plugin. Simple realization of image shadow.
 
 [![npm](https://img.shields.io/npm/v/react-image-shadow?style=flat-square)](https://www.npmjs.com/package/react-image-shadow) [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi) ![](https://img.shields.io/github/last-commit/xrkffgg/react-image-shadow/main?color=%23722ed1&style=flat-square) ![](https://img.shields.io/npm/dm/react-image-shadow?style=flat-square) ![](https://img.shields.io/npm/l/react-image-shadow?style=flat-square)
 
-## Example
+## 📚 Example
 
 Online: https://xrkffgg.github.io/react-image-shadow/
 
-## Usage
+## 📦 Install
+
+```bash
+npm i react-image-shadow
+# or
+yarn add react-image-shadow
+```
+
+## 🎉 Usage
 
 ```js
 import ImageShadow from 'react-image-shadow';
@@ -21,7 +29,7 @@ export default () => (
 );
 ```
 
-## API
+## 📔 API
 
 | Property     | Description                         | Type          | Required | Default |
 | ------------ | ----------------------------------- | ------------- | -------- | ------- |
@@ -33,7 +41,7 @@ export default () => (
 | style        | Component extra style.              | CSSProperties | ✖        | -       |
 | width        | The width of the image.             | number        | ✖        | 300     |
 
-## Development
+## 🔨 Development
 
 ```
 yarn
