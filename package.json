@@ -43,7 +43,9 @@
   ],
   "files": [
     "assets/*.css",
-    "dist"
+    "dist",
+    "README.md",
+    "docs/changelog.md"
   ],
   "license": "MIT",
   "bugs": {
