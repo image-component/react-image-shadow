@@ -11,5 +11,5 @@ jobs:
         ref: refs/pull/${{ github.event.pull_request.number }}/merge
     - uses: preactjs/compressed-size-action@v2
       with:
-        repo-token: "${{ secrets.GH_TOKEN }}"
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
         build-script: "build:dist"
