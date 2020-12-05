@@ -6,7 +6,7 @@ A React image plugin. Simple realization of image shadow.
 
 ## 📚 Example
 
-Online: http://image-tool.github.io/react-image-shadow/
+Online: https://image-tool.github.io/react-image-shadow/
 
 ## 📦 Install
 
