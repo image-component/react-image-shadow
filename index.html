@@ -9,7 +9,7 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="https://github.com/xrkffgg/react-image-shadow/blob/main/logo.png?raw=true"
+      href="https://github.com/image-tool/react-image-shadow/blob/main/logo.png?raw=true"
     />
     <style>
       a img + svg {
@@ -21,12 +21,26 @@
       window.routerBase = "/react-image-shadow/";
     </script>
     <script>
-      //! umi version: 3.2.28
+      //! umi version: 3.3.0
     </script>
   </head>
   <body>
     <div id="root"></div>
 
-    <script src="/react-image-shadow/umi.452dee8a.js"></script>
+    <script>
+      (function () {
+        var timer = setInterval(function () {
+          try {
+            var menuList = document.getElementsByClassName(
+              "__dumi-default-menu-list"
+            );
+            menuList[0].childNodes[0].childNodes[0].innerText =
+              "🌈 react-image-shadow";
+            clearInterval(timer);
+          } catch (e) {}
+        }, 200);
+      })();
+    </script>
+    <script src="/react-image-shadow/umi.66866b6f.js"></script>
   </body>
 </html>
