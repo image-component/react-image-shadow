@@ -10,11 +10,11 @@ import '../../assets/index.less';
 const App = () => {
   return (
     <div className="base-demo">
-      <ImageShadow src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/red.png?raw=true"></ImageShadow>
-      <ImageShadow src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/blue.jpg?raw=true"></ImageShadow>
+      <ImageShadow src="https://github.com/image-tool/react-image-shadow/blob/main/image/red.png?raw=true"></ImageShadow>
+      <ImageShadow src="https://github.com/image-tool/react-image-shadow/blob/main/image/blue.jpg?raw=true"></ImageShadow>
       <ImageShadow
         shadowRadius={20}
-        src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/white.jpg?raw=true"
+        src="https://github.com/image-tool/react-image-shadow/blob/main/image/white.jpg?raw=true"
       ></ImageShadow>
     </div>
   );
