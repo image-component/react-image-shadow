@@ -12,15 +12,15 @@ const App = () => {
     <div className="base-demo">
       <ImageShadow
         shadowHover
-        src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/red.png?raw=true"
+        src="https://github.com/image-tool/react-image-shadow/blob/main/image/red.png?raw=true"
       ></ImageShadow>
       <ImageShadow
         shadowHover
-        src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/blue.jpg?raw=true"
+        src="https://github.com/image-tool/react-image-shadow/blob/main/image/blue.jpg?raw=true"
       ></ImageShadow>
       <ImageShadow
         shadowHover
-        src="https://github.com/xrkffgg/react-image-shadow/blob/main/image/white.jpg?raw=true"
+        src="https://github.com/image-tool/react-image-shadow/blob/main/image/white.jpg?raw=true"
       ></ImageShadow>
     </div>
   );

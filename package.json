@@ -31,11 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xrkffgg/react-image-shadow",
+    "url": "https://github.com/image-tool/react-image-shadow",
     "branch": "main"
   },
   "author": "xrkffgg",
-  "homepage": "https://xrkffgg.github.io/react-image-shadow/",
+  "homepage": "https://image-tool.github.io/react-image-shadow/",
   "keywords": [
     "image",
     "shadow",
@@ -51,7 +51,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xrkffgg/react-image-shadow/issues"
+    "url": "https://github.com/image-tool/react-image-shadow/issues"
   },
   "dependencies": {
     "classnames": "^2.2.6",
