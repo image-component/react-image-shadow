@@ -54,6 +54,10 @@
   "bugs": {
     "url": "https://github.com/image-tool/react-image-shadow/issues"
   },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
     "classnames": "^2.2.6"
