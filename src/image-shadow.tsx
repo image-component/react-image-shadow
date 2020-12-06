@@ -25,7 +25,7 @@ const ImageShadow = (props: ImageShadowProps) => {
   } = props;
 
   const cls = classNames('react-image-shadow', className, {
-    [`react-image-shadow-hover`]: shadowHover,
+    'react-image-shadow-hover': shadowHover,
   });
 
   return (

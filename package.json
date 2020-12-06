@@ -12,8 +12,9 @@
     "deploy": "npm run docs:build && npm run docs:deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "prepublishOnly": "npm run build && np --yolo --no-publish",
-    "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test": "father test",
+    "coverage": "father test --coverage",
+    "lint": "eslint src/ --ext .tsx,.ts"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -54,18 +55,28 @@
     "url": "https://github.com/image-tool/react-image-shadow/issues"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
-    "react": "^17.0.1"
+    "@babel/runtime": "^7.12.5",
+    "classnames": "^2.2.6"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.11",
-    "@umijs/test": "^3.0.5",
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.16",
+    "@umijs/fabric": "^2.2.2",
     "dumi": "^1.0.10",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
+    "eslint": "^7.15.0",
+    "father": "^2.30.1",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
     "np": "^7.0.0",
     "prettier": "^2.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^4.1.2",
     "yorkie": "^2.0.0"
   }
 }
