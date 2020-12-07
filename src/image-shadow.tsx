@@ -52,7 +52,7 @@ const ImageShadow = (props: ImageShadowProps) => {
           borderRadius: `${shadowRadius}px`,
           filter: `blur(${shadowBlur}px)`,
         }}
-      ></div>
+      />
     </div>
   );
 };
