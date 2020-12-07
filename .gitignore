@@ -50,3 +50,5 @@ package-lock.json
 .sass-cache/
 assets/*.css
 
+# test
+coverage

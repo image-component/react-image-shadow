@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`imageShadow render 1`] = `
+<ImageShadow
+  src="https://github.com/image-tool/react-image-shadow/blob/main/image/red.png?raw=true"
+>
+  <div
+    className="react-image-shadow"
+    style={
+      Object {
+        "position": "relative",
+        "width": "300px",
+      }
+    }
+  >
+    <img
+      className="react-image-shadow-img"
+      src="https://github.com/image-tool/react-image-shadow/blob/main/image/red.png?raw=true"
+      style={
+        Object {
+          "borderRadius": "8px",
+        }
+      }
+      width={300}
+    />
+    <div
+      className="react-image-shadow-card"
+      style={
+        Object {
+          "backgroundImage": "url(https://github.com/image-tool/react-image-shadow/blob/main/image/red.png?raw=true)",
+          "borderRadius": "8px",
+          "filter": "blur(20px)",
+        }
+      }
+    />
+  </div>
+</ImageShadow>
+`;
