@@ -9,6 +9,7 @@ export default defineConfig({
   logo:
     'https://github.com/image-tool/react-image-shadow/blob/main/logo.png?raw=true',
   outputPath: 'docs-dist',
+  exportStatic: {},
   base: `/${name}/`,
   publicPath: `/${name}/`,
   styles: [
