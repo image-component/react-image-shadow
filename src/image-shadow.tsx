@@ -44,7 +44,7 @@ const ImageShadow = (props: ImageShadowProps) => {
         style={{
           borderRadius: `${shadowRadius}px`,
         }}
-      />
+      ></img>
       <div
         className="react-image-shadow-card"
         style={{
