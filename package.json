@@ -67,7 +67,7 @@
     "@types/enzyme": "^3.10.8",
     "@types/jest": "^26.0.16",
     "@umijs/fabric": "^2.2.2",
-    "dumi": "^1.0.10",
+    "dumi": "^1.1.0-rc.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "enzyme-to-json": "^3.6.1",

@@ -12,11 +12,6 @@ export default defineConfig({
   exportStatic: {},
   base: `/${name}/`,
   publicPath: `/${name}/`,
-  styles: [
-    `a img + svg {
-      display: none;
-    }`,
-  ],
   theme: {
     '@c-primary': '#3bacea',
   },
