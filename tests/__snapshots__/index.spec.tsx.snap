@@ -8,7 +8,6 @@ exports[`imageShadow render 1`] = `
     className="react-image-shadow"
     style={
       Object {
-        "position": "relative",
         "width": "300px",
       }
     }

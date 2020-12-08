@@ -32,7 +32,6 @@ const ImageShadow = (props: ImageShadowProps) => {
     <div
       className={cls}
       style={{
-        position: 'relative',
         width: `${width}px`,
         ...style,
       }}
