@@ -5,9 +5,9 @@ const name = 'react-image-shadow';
 export default defineConfig({
   title: 'Image Shadow',
   favicon:
-    'https://github.com/image-tool/react-image-shadow/blob/main/logo.png?raw=true',
+    'https://github.com/image-component/react-image-shadow/blob/main/logo.png?raw=true',
   logo:
-    'https://github.com/image-tool/react-image-shadow/blob/main/logo.png?raw=true',
+    'https://github.com/image-component/react-image-shadow/blob/main/logo.png?raw=true',
   outputPath: 'docs-dist',
   exportStatic: {},
   base: `/${name}/`,
