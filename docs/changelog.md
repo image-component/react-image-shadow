@@ -1,5 +1,11 @@
 # 🗓 Changelog
 
+## 1.0.3
+
+`2020-12-10`
+
+- docs: rename `image-tool` -> `image-component`. [#8](https://github.com/image-component/react-image-shadow/pull/8)
+
 ## 1.0.2
 
 `2020-12-08`
