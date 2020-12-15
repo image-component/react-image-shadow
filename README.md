@@ -8,6 +8,10 @@ A React image component. Simple realization of image shadow.
 
 Online: https://image-component.github.io/react-image-shadow/
 
+## 🌀 Template
+
+https://github.com/one-template/react-component-template
+
 ## 📦 Install
 
 ```bash
@@ -31,15 +35,16 @@ export default () => (
 
 ## 📔 API
 
-| Property     | Description                         | Type          | Required | Default |
-| ------------ | ----------------------------------- | ------------- | -------- | ------- |
-| className    | Component extra class.              | string        | ✖        | -       |
-| shadowBlur   | The shadow blur of the image.       | number        | ✖        | 20      |
-| shadowHover  | Whether to support the mouse hover. | boolean       | ✖        | false   |
-| shadowRadius | The border radius of the image.     | number        | ✖        | 8       |
-| src          | The src of the image.               | string        | ✔        | -       |
-| style        | Component extra style.              | CSSProperties | ✖        | -       |
-| width        | The width of the image.             | number        | ✖        | 300     |
+| Property     | Description                         | Type          | Required | Default | Version |
+| ------------ | ----------------------------------- | ------------- | -------- | ------- | ------- |
+| alt          | The alt of the image.               | string        | ✖        | -       | 1.1.0   |
+| className    | Component extra class.              | string        | ✖        | -       | 1.0.0   |
+| shadowBlur   | The shadow blur of the image.       | number        | ✖        | 20      | 1.0.0   |
+| shadowHover  | Whether to support the mouse hover. | boolean       | ✖        | false   | 1.0.0   |
+| shadowRadius | The border radius of the image.     | number        | ✖        | 8       | 1.0.0   |
+| src          | The src of the image.               | string        | ✔        | -       | 1.0.0   |
+| style        | Component extra style.              | CSSProperties | ✖        | -       | 1.0.0   |
+| width        | The width of the image.             | number        | ✖        | 300     | 1.0.0   |
 
 ## 🔨 Development
 

@@ -2,6 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 
 interface ImageShadowProps {
+  alt?: string;
   className?: string;
   shadowBlur?: number;
   shadowHover?: boolean;
@@ -15,6 +16,7 @@ export { ImageShadowProps };
 
 const ImageShadow = (props: ImageShadowProps) => {
   const {
+    alt,
     className,
     shadowBlur = 20,
     shadowHover = false,
@@ -39,6 +41,7 @@ const ImageShadow = (props: ImageShadowProps) => {
       <img
         className="react-image-shadow-img"
         src={src}
+        alt={alt}
         width={width}
         style={{
           borderRadius: `${shadowRadius}px`,
