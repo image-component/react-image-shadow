@@ -1,5 +1,9 @@
 # 🗓 Changelog
 
+## 1.1.1
+
+- perf: optimize img css. [#10](https://github.com/image-component/react-image-shadow/pull/10)
+
 ## 1.1.0
 
 `2020-12-15`
