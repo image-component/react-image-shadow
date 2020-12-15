@@ -1,5 +1,9 @@
 # 🗓 Changelog
 
+## 1.1.1
+
+- perfect: optimize img css.
+
 ## 1.1.0
 
 `2020-12-15`
