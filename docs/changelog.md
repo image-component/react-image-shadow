@@ -2,7 +2,7 @@
 
 ## 1.1.1
 
-- perfect: optimize img css.
+- perf: optimize img css. [#10](https://github.com/image-component/react-image-shadow/pull/10)
 
 ## 1.1.0
 
