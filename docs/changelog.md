@@ -1,5 +1,11 @@
 # 🗓 Changelog
 
+## 1.1.0
+
+`2020-12-15`
+
+- feat: add img `alt`. [#9](https://github.com/image-component/react-image-shadow/pull/9)
+
 ## 1.0.3
 
 `2020-12-10`

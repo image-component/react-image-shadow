@@ -58,4 +58,10 @@ describe('imageShadow', () => {
     const node = wrapper.find('.react-image-shadow-img');
     expect(node.prop('width')).toEqual(100);
   });
+
+  it('alt', () => {
+    const wrapper = mount(<ImageShadow alt="alt" src={testSrc} />);
+    const node = wrapper.find('.react-image-shadow-img');
+    expect(node.prop('alt')).toEqual('alt');
+  });
 });
