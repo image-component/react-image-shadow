@@ -7,15 +7,19 @@ import ImageShadow from 'react-image-shadow';
 import './demo.less';
 import '../../assets/index.less';
 
+const url1 =
+  'https://github.com/image-component/gallery/blob/main/girl/5.jpg?raw=true';
+const url2 =
+  'https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true';
+const url3 =
+  'https://github.com/image-component/gallery/blob/main/girl/2.jpg?raw=true';
+
 const App = () => {
   return (
     <div className="base-demo">
-      <ImageShadow src="https://github.com/image-tool/react-image-shadow/blob/main/image/red.png?raw=true"></ImageShadow>
-      <ImageShadow src="https://github.com/image-tool/react-image-shadow/blob/main/image/blue.jpg?raw=true"></ImageShadow>
-      <ImageShadow
-        shadowRadius={20}
-        src="https://github.com/image-tool/react-image-shadow/blob/main/image/white.jpg?raw=true"
-      ></ImageShadow>
+      <ImageShadow src={url1}></ImageShadow>
+      <ImageShadow src={url2}></ImageShadow>
+      <ImageShadow shadowRadius={20} src={url3}></ImageShadow>
     </div>
   );
 };

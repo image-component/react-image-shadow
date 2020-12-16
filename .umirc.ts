@@ -1,20 +1,18 @@
 import { defineConfig } from 'dumi';
 
 const name = 'react-image-shadow';
+const shortName = 'ImageShadow';
+
+const url = 'https://avatars1.githubusercontent.com/u/75532006?s=200&v=4';
 
 export default defineConfig({
-  title: 'Image Shadow',
-  favicon:
-    'https://github.com/image-component/react-image-shadow/blob/main/logo.png?raw=true',
-  logo:
-    'https://github.com/image-component/react-image-shadow/blob/main/logo.png?raw=true',
+  title: shortName,
+  favicon: url,
+  logo: url,
   outputPath: 'docs-dist',
   exportStatic: {},
   base: `/${name}/`,
   publicPath: `/${name}/`,
-  theme: {
-    '@c-primary': '#3bacea',
-  },
   hash: true,
   scripts: [
     {
@@ -23,7 +21,7 @@ export default defineConfig({
         var timer = setInterval(function() {
           try {
             var menuList = document.getElementsByClassName('__dumi-default-menu-list');
-            menuList[0].childNodes[0].childNodes[0].innerText = '🌈 ${name}';
+            menuList[0].childNodes[0].childNodes[0].innerText = '🌈 ${shortName}';
             clearInterval(timer);
           } catch (e) {}
         }, 200)
