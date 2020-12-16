@@ -1,5 +1,11 @@
 # 🗓 Changelog
 
+## 1.1.2
+
+`2020-12-16`
+
+- fix: typings build. [#12](https://github.com/image-component/react-image-shadow/pull/12)
+
 ## 1.1.1
 
 `2020-12-15`
