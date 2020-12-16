@@ -23,6 +23,7 @@
     "dist",
     "typings",
     "**/__test__",
-    "test"
+    "tests",
+    "docs"
   ]
 }
