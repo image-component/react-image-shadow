@@ -12,7 +12,7 @@ const url1 =
 const url2 =
   'https://github.com/image-component/gallery/blob/main/girl/6.jpg?raw=true';
 const url3 =
-  'https://github.com/image-component/gallery/blob/main/girl/8.jpg?raw=true';
+  'https://github.com/image-component/gallery/blob/main/girl/8.png?raw=true';
 
 const App = () => {
   return (
