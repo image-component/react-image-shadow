@@ -11,7 +11,7 @@
     "build:dist": "father-build && lessc assets/index.less dist/index.css",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "prepublishOnly": "np --yolo --no-publish",
+    "prepublishOnly": "npm run build && np --yolo --no-publish",
     "test": "father test",
     "coverage": "father test --coverage",
     "lint": "eslint src/ --ext .tsx,.ts"
