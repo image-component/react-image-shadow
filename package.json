@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "react-image-shadow",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
