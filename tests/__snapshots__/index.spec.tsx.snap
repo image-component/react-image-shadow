@@ -2,7 +2,7 @@
 
 exports[`imageShadow render 1`] = `
 <ImageShadow
-  src="https://github.com/image-component/react-image-shadow/blob/main/image/red.png?raw=true"
+  src="https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true"
 >
   <div
     className="react-image-shadow"
@@ -14,7 +14,7 @@ exports[`imageShadow render 1`] = `
   >
     <img
       className="react-image-shadow-img"
-      src="https://github.com/image-component/react-image-shadow/blob/main/image/red.png?raw=true"
+      src="https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true"
       style={
         Object {
           "borderRadius": "8px",
@@ -26,7 +26,7 @@ exports[`imageShadow render 1`] = `
       className="react-image-shadow-card"
       style={
         Object {
-          "backgroundImage": "url(https://github.com/image-component/react-image-shadow/blob/main/image/red.png?raw=true)",
+          "backgroundImage": "url(https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true)",
           "borderRadius": "8px",
           "filter": "blur(20px)",
         }

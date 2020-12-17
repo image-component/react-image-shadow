@@ -6,7 +6,7 @@ import ImageShadow from '../src';
 
 describe('imageShadow', () => {
   const testSrc =
-    'https://github.com/image-component/react-image-shadow/blob/main/image/red.png?raw=true';
+    'https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true';
 
   it('render', () => {
     let wrapper;
