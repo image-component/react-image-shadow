@@ -2,6 +2,8 @@
 
 ## 1.1.3
 
+`2021-01-05`
+
 - chore: update dumi version. [#17](https://github.com/image-component/react-image-shadow/pull/17)
 
 ## 1.1.2
