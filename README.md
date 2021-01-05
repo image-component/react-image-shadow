@@ -26,9 +26,12 @@ yarn add react-image-shadow
 import ImageShadow from 'react-image-shadow';
 import 'react-image-shadow/assets/index.css';
 
+const src =
+  'https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true';
+
 export default () => (
   <>
-    <ImageShadow src="https://github.com/image-component/react-image-shadow/blob/main/image/red.png?raw=true" />
+    <ImageShadow src={src} />
   </>
 );
 ```
